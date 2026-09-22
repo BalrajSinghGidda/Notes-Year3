@@ -48,6 +48,18 @@ topics-covered:
 
 - Experience vs. salary fit — the graph drawn in class is kept in the archived revision note.
 
+```mermaid
+xychart-beta
+    title "Experience vs Salary (least-squares fit)"
+    x-axis "Experience (years)" [1, 2, 3, 4, 5]
+    y-axis "Salary" 0 --> 55
+    bar [20, 25, 35, 40, 50]
+    line [19, 26.5, 34, 41.5, 49]
+```
+
+- Bars = observed salaries, line = fitted $y = 11.5 + 7.5x$ (least squares over the five points).
+- The vertical gaps between the bars and the line are the residuals $e$ that least squares minimises.
+
 ## Questions to research
 
 - Why does the normal equation need matrix inversion, and when would gradient descent be cheaper on the same problem?

@@ -45,6 +45,20 @@ topics-covered:
 - **Too small** → training becomes very slow.
 - A good learning rate is large enough to converge quickly, small enough not to overshoot.
 
+```mermaid
+xychart-beta
+    title "Learning rate effect (illustrative)"
+    x-axis "Iteration" 1 --> 10
+    y-axis "Cost J" 0 --> 3
+    line [3.0, 2.9, 2.8, 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1]
+    line [3.0, 1.5, 0.75, 0.4, 0.2, 0.1, 0.05, 0.03, 0.015, 0.008]
+    line [3.0, 1.2, 2.8, 0.9, 2.6, 0.7, 2.4, 0.6, 2.2, 0.5]
+```
+
+- **Top (slow decline):** small $\alpha$ — cost drops a little every iteration, converges slowly.
+- **Middle (fast drop):** good $\alpha$ — cost falls quickly and flattens near zero.
+- **Bottom (oscillating):** large $\alpha$ — cost jumps between high and low values, never settling.
+
 ### Variants
 
 #### Batch

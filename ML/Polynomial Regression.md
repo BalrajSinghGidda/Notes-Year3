@@ -52,6 +52,18 @@ topics-covered:
 - $15b_0 + 55b_1 + 225b_2 = 585$
 - $55b_0 + 225b_1 + 979b_2 = 2325$
 
+```mermaid
+xychart-beta
+    title "Degree-2 fit vs data"
+    x-axis "Exp (x)" [1, 2, 3, 4, 5]
+    y-axis "Salary (y)" 0 --> 55
+    bar [20, 25, 35, 40, 50]
+    line [19.71, 26.14, 33.29, 41.14, 49.71]
+```
+
+- Bars = observed salary, line = degree-2 fit from the solved system — use it to check your $b_0$, $b_1$, $b_2$ answers.
+- Unlike the straight [[Linear Regression]] line, the fitted values hug the data closely, showing the curve picks up the non-linear trend.
+
 ## Questions to research
 
 - Solve the normal-equation system above to find $b_0$, $b_1$ and $b_2$, and check the fitted curve against the data.

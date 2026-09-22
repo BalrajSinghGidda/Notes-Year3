@@ -52,6 +52,20 @@ topics-covered:
 | 2   | -2  | 0.12 | Not spam |
 | 5   | 1   | 0.73 | Spam |
 
+**Sigmoid curve for the spam model ($B_0 = -4$, $B_1 = 1$):**
+
+```mermaid
+xychart-beta
+    title "P(spam) vs FREE count x"
+    x-axis "FREE count (x)" 0 --> 8
+    y-axis "P(spam)" 0 --> 1
+    line [0.018, 0.047, 0.119, 0.269, 0.5, 0.731, 0.881, 0.953, 0.982]
+```
+
+- The curve is monotonic — every extra occurrence of "FREE" raises $P(\text{spam})$ a little.
+- It crosses the 0.5 decision boundary at $x = 4$ (where $z = 0$), matching the table: $x = 5$ is well into the **spam** region.
+- The flat tails approaching 0 and 1 are why a line cannot model a probability — the sigmoid is S-shaped and stays inside $[0, 1]$.
+
 ## Questions to research
 
 - Why is the sigmoid function $\sigma(z) = \frac{1}{1+e^{-z}}$ particularly suited for modeling probabilities in classification, and what properties does it have?

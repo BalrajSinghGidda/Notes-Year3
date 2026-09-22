@@ -45,6 +45,18 @@ topics-covered:
 - A mixture of both **lasso** and **ridge** regression.
 - It can remove as well as shrink the coefficients.
 
+```mermaid
+xychart-beta
+    title "Coefficient shrinkage as λ grows (illustrative)"
+    x-axis "λ" 0 --> 10
+    y-axis "Coefficient |w|" 0 --> 1.1
+    line [1.0, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.35, 0.3, 0.25, 0.2]
+    line [1.0, 0.8, 0.6, 0.4, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+```
+
+- **Smoothly-curving line (ridge):** the coefficient shrinks steadily but never quite reaches 0 — every feature stays, just weakened.
+- **Line that hits 0 (lasso):** once λ crosses a threshold the coefficient becomes exactly 0 — that feature is dropped from the model.
+
 ### Early Stopping
 
 - Stop training once the validation loss stops improving, before the model starts overfitting.

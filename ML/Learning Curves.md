@@ -38,6 +38,19 @@ topics-covered:
 
 ```mermaid
 xychart-beta
+    title "Bias-Variance Trade-off (illustrative)"
+    x-axis "Model complexity" 1 --> 7
+    y-axis "Error" 0 --> 1
+    line [0.9, 0.75, 0.6, 0.45, 0.3, 0.2, 0.15]
+    line [0.05, 0.1, 0.2, 0.35, 0.5, 0.65, 0.8]
+```
+
+- **Descending line (bias):** error from under-fitting — high when the model is too simple.
+- **Rising line (variance):** error from over-fitting — high when the model is too complex.
+- A good model sits near the crossing, where **both** errors are low.
+
+```mermaid
+xychart-beta
     title "Learning Curve"
     x-axis "Dataset" 100 --> 1600
     y-axis "Accuracy Score" 0.1 --> 1.0
