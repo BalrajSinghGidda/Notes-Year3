@@ -1,0 +1,76 @@
+{
+	"nodes":[
+		{
+			"id":"890abcdef0123456",
+			"type":"group",
+			"collapsed":true,
+			"x":-520,
+			"y":340,
+			"width":880,
+			"height":510,
+			"label":"ML",
+			"collapsedData":{
+				"nodes":[
+					{"id":"b2c3d4e5f6789012","type":"file","file":"ML/Introduction to Machine Learning.md","x":40,"y":50,"width":240,"height":120,"color":"1"},
+					{"id":"c3d4e5f678901234","type":"file","file":"ML/Gradient Descent.md","x":320,"y":50,"width":240,"height":120,"color":"1"},
+					{"id":"d4e5f67890123456","type":"file","file":"ML/Regularization.md","x":600,"y":50,"width":240,"height":120,"color":"1"},
+					{"id":"e5f6789012345678","type":"file","file":"ML/Linear Regression.md","x":40,"y":210,"width":240,"height":120,"color":"1"},
+					{"id":"f67890123456789a","type":"file","file":"ML/Multiple Linear Regression.md","x":320,"y":210,"width":240,"height":120,"color":"1"},
+					{"id":"123456789abcdef0","type":"file","file":"ML/Classification.md","x":600,"y":210,"width":240,"height":120,"color":"1"},
+					{"id":"23456789abcdef01","type":"file","file":"ML/Polynomial Regression.md","x":40,"y":370,"width":240,"height":120,"color":"1"},
+					{"id":"3456789abcdef012","type":"file","file":"ML/Learning Curves.md","x":320,"y":370,"width":240,"height":120,"color":"1"},
+					{"id":"456789abcdef0123","type":"file","file":"ML/Logistic Regression.md","x":600,"y":370,"width":240,"height":120,"color":"1"}
+				],
+				"edges":[
+					{"id":"dddd4444eeee5555","fromNode":"b2c3d4e5f6789012","fromSide":"right","toNode":"c3d4e5f678901234","toSide":"left"},
+					{"id":"eeee5555ffff6666","fromNode":"b2c3d4e5f6789012","fromSide":"bottom","toNode":"e5f6789012345678","toSide":"top"},
+					{"id":"ffff666611117777","fromNode":"b2c3d4e5f6789012","fromSide":"right","toNode":"123456789abcdef0","toSide":"left"},
+					{"id":"1111777722228888","fromNode":"b2c3d4e5f6789012","fromSide":"bottom","toNode":"23456789abcdef01","toSide":"top"},
+					{"id":"2222888833339999","fromNode":"c3d4e5f678901234","fromSide":"right","toNode":"3456789abcdef012","toSide":"left"},
+					{"id":"333399994444aaaa","fromNode":"e5f6789012345678","fromSide":"right","toNode":"f67890123456789a","toSide":"left"},
+					{"id":"4444aaaa5555bbbb","fromNode":"e5f6789012345678","fromSide":"bottom","toNode":"23456789abcdef01","toSide":"top"},
+					{"id":"5555bbbb6666cccc","fromNode":"e5f6789012345678","fromSide":"right","toNode":"456789abcdef0123","toSide":"left"},
+					{"id":"6666cccc7777dddd","fromNode":"f67890123456789a","fromSide":"bottom","toNode":"23456789abcdef01","toSide":"top"},
+					{"id":"7777dddd8888eeee","fromNode":"3456789abcdef012","fromSide":"bottom","toNode":"d4e5f67890123456","toSide":"left"},
+					{"id":"8888eeee9999ffff","fromNode":"d4e5f67890123456","fromSide":"bottom","toNode":"3456789abcdef012","toSide":"top"},
+					{"id":"9999ffff0000aaaa","fromNode":"d4e5f67890123456","fromSide":"right","toNode":"456789abcdef0123","toSide":"left"},
+					{"id":"0000aaaa1111bbbb","fromNode":"123456789abcdef0","fromSide":"bottom","toNode":"456789abcdef0123","toSide":"left"},
+					{"id":"0000bbbb1111cccc","fromNode":"456789abcdef0123","fromSide":"bottom","toNode":"123456789abcdef0","toSide":"top"}
+				]
+			}
+		},
+		{
+			"id":"9abcdef012345678",
+			"type":"group",
+			"collapsed":true,
+			"x":-520,
+			"y":-80,
+			"width":300,
+			"height":350,
+			"label":"DAA",
+			"collapsedData":{
+				"nodes":[
+					{"id":"56789abcdef01234","type":"file","file":"DAA/Travelling Salesman Problem.md","x":20,"y":50,"width":240,"height":120,"color":"4"},
+					{"id":"6789abcdef012345","type":"file","file":"DAA/Branch and Bound.md","x":20,"y":210,"width":240,"height":120,"color":"4"}
+				],
+				"edges":[
+					{"id":"0000cccc1111dddd","fromNode":"56789abcdef01234","fromSide":"bottom","toNode":"6789abcdef012345","toSide":"top"},
+					{"id":"0000dddd1111eeee","fromNode":"6789abcdef012345","fromSide":"top","toNode":"56789abcdef01234","toSide":"bottom"}
+				]
+			}
+		},
+		{"id":"a1b2c3d4e5f67890","type":"file","file":"Home.md","x":40,"y":20,"width":200,"height":120,"color":"6"},
+		{"id":"789abcdef0123456","type":"file","file":"Reference/LaTeX Math Symbols.md","x":580,"y":280,"width":240,"height":120,"color":"2"},
+		{"id":"fedcba9876543210","type":"file","file":"Templates/Lecture Note.md","x":580,"y":-160,"width":240,"height":80,"color":"3"}
+	],
+	"edges":[
+		{"id":"aaaa1111bbbb2222","toFloating":false,"fromFloating":false,"fromNode":"a1b2c3d4e5f67890","fromSide":"left","toNode":"890abcdef0123456","toSide":"right"},
+		{"id":"bbbb2222cccc3333","fromFloating":false,"toFloating":false,"fromNode":"a1b2c3d4e5f67890","fromSide":"left","toNode":"9abcdef012345678","toSide":"right"},
+		{"id":"0123456789abcdef","fromNode":"a1b2c3d4e5f67890","fromSide":"right","toNode":"789abcdef0123456","toSide":"left"},
+		{"id":"cccc3333dddd4444","fromFloating":false,"toFloating":false,"fromNode":"a1b2c3d4e5f67890","fromSide":"right","toNode":"fedcba9876543210","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

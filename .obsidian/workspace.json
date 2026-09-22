@@ -1,0 +1,324 @@
+{
+  "main": {
+    "id": "40c067db597d420a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1862760872e5591e",
+        "type": "split",
+        "children": [
+          {
+            "id": "8cc7dcdae180bc5d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "01745e72c3d3a96e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ML/Logistic Regression.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Logistic Regression"
+                }
+              }
+            ]
+          },
+          {
+            "id": "94aa06794d39936c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4b9853cc3eeb6be6",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/home/balraj/Documents/Notes- GNDEC/Notes- GNDEC",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "environment": [],
+                        "executable": "/bin/sh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "linuxIntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "~/D/N/Notes- GNDEC"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f709b10460743948",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd25438f229c9bb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30d3c38576eeb804",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9f2f98e7e4375dbf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3ea5ea41a041a423",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b938281f8b2ba091",
+    "type": "split",
+    "children": [
+      {
+        "id": "92f226edbf6e15f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30032d40e79f4320",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Questions to search (DAA- 07-09-2026).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "832d58891cddbe02",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Questions to search (DAA- 07-09-2026).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f6b0c0439d37e185",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1ea29381a3ee0da7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3a8a6cafa28f28ac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Questions to search (DAA- 07-09-2026).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "3e83fd37383f2643",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "bdd8513170c83048",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.4130859375
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Agent Chat": false,
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "4b9853cc3eeb6be6",
+  "lastOpenFiles": [
+    "ML/Logistic Regression.md",
+    "copilot/copilot-conversations/agent__Hey!!_none_of_the_ML_notes_have_graphs_where_graphs@20260922_100248.md",
+    "ML/Linear Regression.md",
+    "ML/Learning Curves.md",
+    "ML/Multiple Linear Regression.md",
+    "DAA/Branch and Bound- 1.md",
+    "DAA/Branch and Bound.md",
+    "DAA/Travelling Salesman Problem.md",
+    "ML/Drawing 2026-09-08 09.58.15.excalidraw.md",
+    "ML/Introduction to Machine Learning.md",
+    "ML/Gradient Descent.md",
+    "Pasted image 20260918155721.png",
+    "Pasted image 20260918155647.png",
+    "DAA/Untitled.md",
+    "Untitled.base",
+    "ML/Polynomial Regression.md",
+    "ML/Regularization.md",
+    "Mind Map.canvas",
+    "copilot/copilot-conversations/agent__I_have_a_big_task_to_ask_of_you._Look@20260917_115948.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "Archive/Mind Map.canvas",
+    "Mind Map.md",
+    "ML/Classification.md",
+    "Templates/Lecture Note.md",
+    "Templates",
+    "Home.md",
+    "Archive/Questions to search (DAA- 07-09-2026).md",
+    "Archive/ML.md",
+    "Archive/ML Revision (till 08-09-2026).md",
+    "Archive",
+    "ML/ML.md",
+    "ML/ML Revision (till 08-09-2026).md",
+    "Reference",
+    "DAA",
+    "ML",
+    "copilot/copilot-conversations",
+    "Untitled.canvas",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/LICENSE"
+  ]
+}
