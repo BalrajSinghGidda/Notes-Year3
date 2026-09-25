@@ -193,11 +193,9 @@
           {
             "id": "d107d2be032c2eba",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "git-view",
               "state": {},
-              "pinned": true,
               "icon": "git-pull-request",
               "title": "Source Control"
             }
@@ -233,12 +231,14 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bdd8513170c83048",
+  "active": "d107d2be032c2eba",
   "lastOpenFiles": [
+    "Mind Map.canvas",
+    "DAA/Bellman Ford.md",
+    "Untitled.base",
     "Untitled",
     "DAA/Travelling Salesman Problem.md",
     "DAA/Branch and Bound.md",
-    "DAA/Bellman Ford.md",
     "DAA/Multi-graph.md",
     "copilot/copilot-conversations/agent__look_at_the_DAA_notes_and_reformat_them._Also,_i@20260923_104255.md",
     "DAA/Branch and Bound- 1.md",
@@ -260,7 +260,6 @@
     "ML/Linear Regression.md",
     "copilot/copilot-conversations/agent__Hey!!_none_of_the_ML_notes_have_graphs_where_graphs@20260922_100248.md",
     "Reference/Pasted image 20260918155721.png",
-    "Mind Map.canvas",
     "copilot/copilot-conversations/agent__I_have_a_big_task_to_ask_of_you._Look@20260917_115948.md",
     "AGENTS.md",
     "CLAUDE.md",
@@ -273,8 +272,6 @@
     "ML",
     "copilot/copilot-conversations",
     "Untitled.canvas",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
-    "copilot/skills/json-canvas/LICENSE"
+    "copilot/skills/obsidian-cli/LICENSE"
   ]
 }
