@@ -19,9 +19,9 @@ tags:
 
 **ai**: I'll start by exploring your vault structure and reading the note you attached to understand the current formatting.
 
-Let me look at the other notes to understand the full scope.I've read all five notes. There's a fair amount to fix: skipped heading levels (`#` → `###`, `###` → `#####/######`), typos in headings ("Mini-varient", "Stoichastic"), a stray `- k` bullet, empty bullets, broken LaTeX (unbalanced braces, wrong subscripts), and plain-text lines that should be headings in [[Untitled]]. Let me set up a plan and work through each note.The `copilot/` folder and the Excalidraw drawing are tooling/assets, so I'll leave them alone. Now the full cleanup of [[ML.md]] — rewriting it with a consistent heading hierarchy, fixed LaTeX, and cleaned formatting:[[ML.md]] is done. Now the DAA note — targeted edits so the large Excalidraw SVG blocks stay untouched:DAA note is done. Now [[ML Revision (till 08-09-2026)]]:
+Let me look at the other notes to understand the full scope.I've read all five notes. There's a fair amount to fix: skipped heading levels (`#` → `###`, `###` → `#####/######`), typos in headings ("Mini-varient", "Stoichastic"), a stray `- k` bullet, empty bullets, broken LaTeX (unbalanced braces, wrong subscripts), and plain-text lines that should be headings in [[Bellman Ford]]. Let me set up a plan and work through each note.The `copilot/` folder and the Excalidraw drawing are tooling/assets, so I'll leave them alone. Now the full cleanup of [[ML.md]] — rewriting it with a consistent heading hierarchy, fixed LaTeX, and cleaned formatting:[[ML.md]] is done. Now the DAA note — targeted edits so the large Excalidraw SVG blocks stay untouched:DAA note is done. Now [[ML Revision (till 08-09-2026)]]:
 
-Now the Questions note — adding a title and removing the empty bullets:Now rewriting [[Untitled]] with proper headings, `$...$` math delimiters, and normalized tables:All edits applied. Let me verify the DAA and ML Revision notes came out correctly (especially since they contain large SVG blocks I didn't want to disturb):Both notes look good. Let me add blank lines after the lecture headings in [[ML Revision (till 08-09-2026)]] for consistent spacing, then wrap up:Done — all five notes cleaned up. Here's what changed in each (I skipped the `copilot/` folder and the Excalidraw drawing file, which are tooling/assets).
+Now the Questions note — adding a title and removing the empty bullets:Now rewriting [[Bellman Ford]] with proper headings, `$...$` math delimiters, and normalized tables:All edits applied. Let me verify the DAA and ML Revision notes came out correctly (especially since they contain large SVG blocks I didn't want to disturb):Both notes look good. Let me add blank lines after the lecture headings in [[ML Revision (till 08-09-2026)]] for consistent spacing, then wrap up:Done — all five notes cleaned up. Here's what changed in each (I skipped the `copilot/` folder and the Excalidraw drawing file, which are tooling/assets).
 
 ## [[ML.md]]
 - Fixed heading hierarchy — no more jumps from `#` → `###` or `###` → `#####/######`. New structure: `## Gradient Descent` wraps Batch/Stochastic/Mini-batch as `###`; `## Learning Curves` now has `### Bias/Variance/Trade-off`; `## Regularization` has `### Terms`, `### Techniques`, `#### Lasso/Ridge/Elastic Net/Early Stopping`; `## Classification` has `### Types`.
@@ -45,7 +45,7 @@ Now the Questions note — adding a title and removing the empty bullets:Now rew
 ## [[Questions to search (DAA- 07-09-2026)]]
 - Added `# Questions to Search (DAA)` title, removed four empty `-` bullets inside the answers.
 
-## [[Untitled]]
+## [[Bellman Ford]]
 - Fixed the opening line ("n **Obsidian**" → "In **Obsidian**"), added `# Math Symbols in Obsidian` title, turned the plain-text section labels into `##` headings, converted all `\(\alpha \)`-style math to `$...$`, made the tip a blockquote, and normalized the tables.
 
 **Heads-up on judgment calls** (happy to adjust any of these): I corrected the broken math and a few garbled sentences (e.g., the Lasso definition, "learning curves helps finding the datasets…") because they wouldn't render or read properly — but it's worth skimming [[ML.md]] to confirm the intent matches yours. If you'd rather keep spelling/typos verbatim, I can revert that part.
@@ -130,11 +130,11 @@ This is the standard least-squares slope formula, but I'm guessing what the prof
 - [[ML.md]]: the stray `- k` bullet sitting between the marks table and the `---` separator (line 56), and the empty "Convergence:" bullet that had nothing under it.
 - [[ML Revision (till 08-09-2026)]]: trailing empty `-` bullet at the end of the file.
 - [[Questions to search (DAA- 07-09-2026)]]: four empty `-` bullets inside the answers (after each definition).
-- [[Untitled]]: `n **Obsidian**` → `In **Obsidian**` (missing "I").
+- [[Bellman Ford]]: `n **Obsidian**` → `In **Obsidian**` (missing "I").
 
 ## 6. Pure mechanical cleanup (no content touched)
 
-- Heading level fixes (e.g. `#` → `###` jumps, `#####/######` → `###`, adding `#` titles to [[DAA (09-09-2026)]], [[ML Revision (till 08-09-2026)]], [[Questions to search (DAA- 07-09-2026)]], and [[Untitled]]).
+- Heading level fixes (e.g. `#` → `###` jumps, `#####/######` → `###`, adding `#` titles to [[DAA (09-09-2026)]], [[ML Revision (till 08-09-2026)]], [[Questions to search (DAA- 07-09-2026)]], and [[Bellman Ford]]).
 - `\bar{x_1}` → `\bar{x}_1` in the $S_{ij}$ formulas (only affects how the bar renders).
 - Spelling-only fixes: "hamiltanion" → "Hamiltonian", "Varients" → "Variants", "Stoichastic" → "Stochastic", "Disadvantes" → "Disadvantages", "pre-mature" → "premature", "prefered" → "preferred", "Benifits" → "Benefits", "imporves" → "improves", "commutationally" → "computationally", "Eqns" → "Equations".
 - Consistent tabs → 4-space indentation on nested bullets, blank lines around headings, bolded "Advantages/Disadvantages/Total/Distance table" labels.

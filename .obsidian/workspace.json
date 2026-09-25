@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4a7ba50a51da62b5",
+        "id": "e3fd86acf33c20d6",
         "type": "tabs",
         "children": [
           {
-            "id": "70ee48b6c7185e6b",
+            "id": "24caa1bc01619532",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Regularization.md",
+                "file": "DAA/Bellman Ford.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regularization"
+              "title": "Bellman Ford"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 270.48488998413086
   },
   "right": {
     "id": "b938281f8b2ba091",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions to search (DAA- 07-09-2026).md",
+                "file": "DAA/Bellman Ford.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions to search (DAA- 07-09-2026).md",
+                "file": "DAA/Bellman Ford.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions to search (DAA- 07-09-2026).md",
+                "file": "DAA/Bellman Ford.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,9 +189,21 @@
               "icon": "copilot-agent",
               "title": "Copilot Agent"
             }
+          },
+          {
+            "id": "d107d2be032c2eba",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "pinned": true,
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -221,41 +233,41 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "70ee48b6c7185e6b",
+  "active": "bdd8513170c83048",
   "lastOpenFiles": [
+    "Untitled",
+    "DAA/Travelling Salesman Problem.md",
+    "DAA/Branch and Bound.md",
+    "DAA/Bellman Ford.md",
+    "DAA/Multi-graph.md",
+    "copilot/copilot-conversations/agent__look_at_the_DAA_notes_and_reformat_them._Also,_i@20260923_104255.md",
+    "DAA/Branch and Bound- 1.md",
+    "ML/Drawing 2026-09-08 09.58.15.excalidraw.md",
+    "copilot/copilot-conversations/agent__Clean_up_the_headings_and_formatting_across_my_notes@20260917_104232.md",
+    "Table Of Contents.base",
+    "Home.md",
+    "ML/Logistic Regression.md",
+    "ML/Error Analysis.md",
+    "ML/Classification.md",
+    "Reference/Pasted image 20260918155647.png",
     "ML/Regularization.md",
+    "ML/Regression Metrics.md",
+    "ML/Polynomial Regression.md",
     "ML/Gradient Descent.md",
     "ML/Multiple Linear Regression.md",
     "ML/Introduction to Machine Learning.md",
     "ML/Learning Curves.md",
     "ML/Linear Regression.md",
-    "ML/Logistic Regression.md",
     "copilot/copilot-conversations/agent__Hey!!_none_of_the_ML_notes_have_graphs_where_graphs@20260922_100248.md",
-    "DAA/Branch and Bound- 1.md",
-    "DAA/Branch and Bound.md",
-    "DAA/Travelling Salesman Problem.md",
-    "ML/Drawing 2026-09-08 09.58.15.excalidraw.md",
-    "Pasted image 20260918155721.png",
-    "Pasted image 20260918155647.png",
-    "DAA/Untitled.md",
-    "Untitled.base",
-    "ML/Polynomial Regression.md",
+    "Reference/Pasted image 20260918155721.png",
     "Mind Map.canvas",
     "copilot/copilot-conversations/agent__I_have_a_big_task_to_ask_of_you._Look@20260917_115948.md",
     "AGENTS.md",
     "CLAUDE.md",
     "Archive/Mind Map.canvas",
     "Mind Map.md",
-    "ML/Classification.md",
-    "Templates/Lecture Note.md",
     "Templates",
-    "Home.md",
-    "Archive/Questions to search (DAA- 07-09-2026).md",
-    "Archive/ML.md",
-    "Archive/ML Revision (till 08-09-2026).md",
     "Archive",
-    "ML/ML.md",
-    "ML/ML Revision (till 08-09-2026).md",
     "Reference",
     "DAA",
     "ML",

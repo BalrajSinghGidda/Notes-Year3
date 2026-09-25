@@ -11,13 +11,17 @@ a
 - [[ML/Polynomial Regression|Polynomial Regression]] — curved fits, normal equations, degree-2 example
 - [[ML/Learning Curves|Learning Curves]] — bias vs. variance, the trade-off
 - [[ML/Regularization|Regularization]] — lasso, ridge, elastic net, early stopping
-- [[ML/Classification|Classification]] — binary, multi-class, multi-label
-- [[ML/Logistic Regression|Logistic Regression]] — sigmoid derivation, spam example
+- [[ML/Regression Metrics|Regression Metrics]] — MAE, MSE, RMSE, R²
+- [[ML/Classification|Classification]] — binary, multi-class, multi-label, multioutput
+- [[ML/Error Analysis|Error Analysis]] — confusion matrix, precision, recall, F1
+- [[ML/Logistic Regression|Logistic Regression]] — sigmoid derivation, log loss, softmax, spam example
 
 ## DAA — Design and Analysis of Algorithms
 
 - [[DAA/Travelling Salesman Problem|Travelling Salesman Problem]] — greedy (nearest neighbour) approach
 - [[DAA/Branch and Bound|Branch and Bound]] — state-space tree, e-nodes, bounding functions, pruning
+- [[DAA/Bellman Ford|Bellman Ford]] — all-pairs shortest path via dynamic programming
+- [[DAA/Multi-graph|Multi-graph]] — multi-stage graphs, forward / backward dynamic programming
 
 ## Reference
 

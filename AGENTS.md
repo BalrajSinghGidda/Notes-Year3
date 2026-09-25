@@ -13,7 +13,7 @@ Permanent rules for all vault work. Read before any bulk edit or reformat.
 - `Home.md` — text index of all notes.
 - `Mind Map.canvas` — visual index; must stay valid JSON Canvas 1.0.
 - `ML/` — 9 topic notes (one md per topic, template structure).
-- `DAA/` — 2 notes: Travelling Salesman Problem, Branch and Bound.
+- `DAA/` — 4 notes: Travelling Salesman Problem, Branch and Bound, Bellman Ford, Multi-graph.
 - `Reference/` — LaTeX Math Symbols cheat sheet.
 - `Templates/Lecture Note.md` — canonical layout for lecture/topic notes.
 

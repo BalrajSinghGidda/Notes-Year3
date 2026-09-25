@@ -8,5 +8,11 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "alwaysUpdateLinks": true,
+  "settingsPopoutWindow": true,
+  "showInlineTitle": false,
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "vimMode": false
 }

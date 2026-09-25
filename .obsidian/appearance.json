@@ -1,8 +1,13 @@
 {
-  "cssTheme": "Wasp",
+  "cssTheme": "Blue Topaz",
   "interfaceFontFamily": "CaskaydiaCove Nerd Font Propo",
-  "textFontFamily": "JetBrainsMono Nerd Font Propo",
+  "textFontFamily": "CaskaydiaCove Nerd Font Propo",
   "baseFontSizeAction": true,
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
-  "baseFontSize": 19
+  "monospaceFontFamily": "CaskaydiaCove Nerd Font Mono",
+  "baseFontSize": 16,
+  "theme": "system",
+  "accentColor": "#8b4d52",
+  "showViewHeader": false,
+  "showRibbon": true,
+  "nativeMenus": false
 }

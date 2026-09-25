@@ -22,9 +22,10 @@
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
   "stream": true,
-  "copilotFolder": "copilot",
+  "copilotFolder": ".copilot",
   "copilotRootHistory": [
-    "copilot"
+    "copilot",
+    ".copilot"
   ],
   "upgradedToV8FromLegacy": false,
   "defaultSaveFolder": "copilot/copilot-conversations",
@@ -317,7 +318,7 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": "4.0.10",
+  "lastDismissedVersion": "4.0.11",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -367,6 +368,10 @@
     "activeBackend": "opencode",
     "backends": {
       "opencode": {
+        "defaultModel": {
+          "baseModelId": "openrouter/qwen/qwen3.8-27b:free",
+          "effort": null
+        },
         "defaultMode": "auto"
       }
     },
@@ -518,15 +523,6 @@
         "displayName": "OpenRouter/Claude Haiku 4.5 (latest)"
       },
       "configuredModelId": "adad851a-5557-43ba-b428-a832666085f3",
-      "configuredAt": 1788759026669
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "openrouter/anthropic/claude-opus-4",
-        "displayName": "OpenRouter/Claude Opus 4"
-      },
-      "configuredModelId": "5625ac34-0ebb-4cc5-b32a-a20ac597f0bc",
       "configuredAt": 1788759026669
     },
     {
@@ -1877,15 +1873,6 @@
         "displayName": "OpenRouter/Inkling Small (free)"
       },
       "configuredModelId": "9c7563f8-916e-4a29-9040-85808cac9759",
-      "configuredAt": 1788759026723
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "openrouter/kwaipilot/kat-coder-pro-v2",
-        "displayName": "OpenRouter/KAT-Coder-Pro V2"
-      },
-      "configuredModelId": "d74ad553-4752-4fc9-a724-391b9951cedc",
       "configuredAt": 1788759026723
     },
     {
@@ -3574,24 +3561,6 @@
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "opencode/mimo-v2.5-free",
-        "displayName": "OpenCode Zen/MiMo V2.5 Free"
-      },
-      "configuredModelId": "3b2e1904-db11-4cec-a55c-c188f5191fcc",
-      "configuredAt": 1788759026781
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "opencode/muse-spark-1.2-contributor-free",
-        "displayName": "OpenCode Zen/Muse Spark 1.2 Free"
-      },
-      "configuredModelId": "ef227fd2-8660-4cca-9700-9f51dc7f4037",
-      "configuredAt": 1788759026781
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
         "id": "opencode/muse-spark-1.3-contributor-free",
         "displayName": "OpenCode Zen/Muse Spark 1.3 Free"
       },
@@ -3646,38 +3615,11 @@
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "openrouter/inclusionai/ling-3.0-flash-vl:free",
-        "displayName": "OpenRouter/Ling 3.0 Flash VL (free)"
-      },
-      "configuredModelId": "1c625430-eb97-48cc-b5cf-04b67e0bf0bb",
-      "configuredAt": 1789358388674
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
         "id": "openrouter/inception/mercury-2.5",
         "displayName": "OpenRouter/Mercury 2.5"
       },
       "configuredModelId": "d911e9cf-0aac-4b1d-9f5e-2df055ad3265",
       "configuredAt": 1789358388677
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "openrouter/nex-agi/nex-n2.5-mini:free",
-        "displayName": "OpenRouter/Nex-N2.5-Mini (free)"
-      },
-      "configuredModelId": "cf40e8ab-3654-441b-b8a0-8ed4172c2a19",
-      "configuredAt": 1789358388678
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "openrouter/nex-agi/nex-n2.5-pro:free",
-        "displayName": "OpenRouter/Nex-N2.5-Pro (free)"
-      },
-      "configuredModelId": "3f509fc8-a9c8-4865-b8da-cfd3cdecf492",
-      "configuredAt": 1789358388678
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
@@ -3808,279 +3750,200 @@
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-fable-5",
-        "displayName": "GitHub Copilot/Claude Fable 5"
+        "id": "openrouter/x-ai/grok-4.7",
+        "displayName": "OpenRouter/Grok 4.7"
       },
-      "configuredModelId": "1bf825c2-7aa2-453b-82b7-43299e4c2dcc",
-      "configuredAt": 1790050274611
+      "configuredModelId": "fd3157b6-fa8e-4dad-9406-1546eb735991",
+      "configuredAt": 1790060863627
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-fable-5.1",
-        "displayName": "GitHub Copilot/Claude Fable 5.1"
+        "id": "openrouter/xiaomi/mimo-v2.6-flash",
+        "displayName": "OpenRouter/MiMo-V2.6-Flash"
       },
-      "configuredModelId": "6fe7dc62-9b08-4f02-a5e6-b4ae45904a7f",
-      "configuredAt": 1790050274616
+      "configuredModelId": "64e054f5-ee56-491c-8448-18ee122b8a18",
+      "configuredAt": 1790060863634
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-haiku-4.5",
-        "displayName": "GitHub Copilot/Claude Haiku 4.5 (latest)"
+        "id": "openrouter/xiaomi/mimo-v2.6-pro",
+        "displayName": "OpenRouter/MiMo-V2.6-Pro"
       },
-      "configuredModelId": "7d09295b-92e2-4e63-b8a8-ccc1bed5a3e4",
-      "configuredAt": 1790050274616
+      "configuredModelId": "8c9de393-5302-422c-b687-fe6be8488376",
+      "configuredAt": 1790060863635
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-opus-4.7",
-        "displayName": "GitHub Copilot/Claude Opus 4.7"
+        "id": "openrouter/xiaomi/mimo-v2.6-pro-ultraspeed",
+        "displayName": "OpenRouter/MiMo-V2.6-Pro-UltraSpeed"
       },
-      "configuredModelId": "27f9f409-5d78-4a3c-8e6b-562b5435df14",
-      "configuredAt": 1790050274617
+      "configuredModelId": "45fb1d43-cbcb-46f9-ba6f-ec556da8665a",
+      "configuredAt": 1790060863635
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-opus-4.7-fast",
-        "displayName": "GitHub Copilot/Claude Opus 4.7 Fast"
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "OpenCode Zen/MiMo-V2.6-Flash Free"
       },
-      "configuredModelId": "b6684ba1-3679-40b0-b6ba-3732043bf0ea",
-      "configuredAt": 1790050274617
+      "configuredModelId": "99b5d413-01c2-4d6a-8b5d-aea571438f45",
+      "configuredAt": 1790060863637
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-opus-4.8",
-        "displayName": "GitHub Copilot/Claude Opus 4.8"
+        "id": "openrouter/anthropic/claude-opus-5.5",
+        "displayName": "OpenRouter/Claude Opus 5.5"
       },
-      "configuredModelId": "010c45f1-083e-41b4-882c-6ee36e1e477e",
-      "configuredAt": 1790050274618
+      "configuredModelId": "9039cc1d-1157-4902-a92f-7becbf919289",
+      "configuredAt": 1790140259776
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-opus-4.8-fast",
-        "displayName": "GitHub Copilot/Claude Opus 4.8 Fast"
+        "id": "openrouter/cohere/command-a-plus",
+        "displayName": "OpenRouter/Command A+"
       },
-      "configuredModelId": "df6ccce3-82d1-4118-afc8-3ab5540e62cd",
-      "configuredAt": 1790050274618
+      "configuredModelId": "2848f9a3-29df-454c-8a28-bf61f6a36648",
+      "configuredAt": 1790140259779
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-opus-5",
-        "displayName": "GitHub Copilot/Claude Opus 5"
+        "id": "openrouter/openai/gpt-6-luna",
+        "displayName": "OpenRouter/GPT-6 Luna"
       },
-      "configuredModelId": "0f596d9e-bc01-47af-973a-6f37f776ed30",
-      "configuredAt": 1790050274619
+      "configuredModelId": "e0189116-2c1e-45ac-bf91-89b6aeefb25f",
+      "configuredAt": 1790140259780
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-sonnet-4.6",
-        "displayName": "GitHub Copilot/Claude Sonnet 4.6"
+        "id": "openrouter/openai/gpt-6-luna-pro",
+        "displayName": "OpenRouter/GPT-6 Luna Pro"
       },
-      "configuredModelId": "6fbd950b-2c4d-4801-9b44-0a68fafa9cc5",
-      "configuredAt": 1790050274619
+      "configuredModelId": "53349eef-66df-440d-97a7-41738c8c33f7",
+      "configuredAt": 1790140259780
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/claude-sonnet-5",
-        "displayName": "GitHub Copilot/Claude Sonnet 5"
+        "id": "openrouter/openai/gpt-6-sol",
+        "displayName": "OpenRouter/GPT-6 Sol"
       },
-      "configuredModelId": "91d88d87-e2b6-42f8-a18d-e8816068a734",
-      "configuredAt": 1790050274620
+      "configuredModelId": "f75b66b0-79c4-4310-816c-d30207e92f9d",
+      "configuredAt": 1790140259781
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gemini-3.5-flash",
-        "displayName": "GitHub Copilot/Gemini 3.5 Flash"
+        "id": "openrouter/openai/gpt-6-sol-pro",
+        "displayName": "OpenRouter/GPT-6 Sol Pro"
       },
-      "configuredModelId": "ec857019-f728-4956-934c-3dd5ac8a2360",
-      "configuredAt": 1790050274620
+      "configuredModelId": "84d61d15-6586-472f-ad97-b5bd619d4fe5",
+      "configuredAt": 1790140259781
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gemini-3.6-flash",
-        "displayName": "GitHub Copilot/Gemini 3.6 Flash"
+        "id": "openrouter/qwen/qwen3.8-omni-flash",
+        "displayName": "OpenRouter/Qwen3.8 Omni Flash"
       },
-      "configuredModelId": "0e7fd5e8-99d3-43bc-b48f-e023ebe4cba7",
-      "configuredAt": 1790050274621
+      "configuredModelId": "6d92d17e-881d-4de7-be04-dfe1ab30a6b2",
+      "configuredAt": 1790140259782
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gemini-3.7-flash",
-        "displayName": "GitHub Copilot/Gemini 3.7 Flash"
+        "id": "openrouter/aion-labs/aion-3.5",
+        "displayName": "OpenRouter/Aion 3.5"
       },
-      "configuredModelId": "7fcf8460-e36e-468f-a9c5-387df290ed04",
-      "configuredAt": 1790050274621
+      "configuredModelId": "b31a3c9c-5465-420c-aec2-0bc8dc2d0e19",
+      "configuredAt": 1790350350918
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gemini-3.8-flash",
-        "displayName": "GitHub Copilot/Gemini 3.8 Flash"
+        "id": "openrouter/aion-labs/aion-3.5-mini",
+        "displayName": "OpenRouter/Aion 3.5 Mini"
       },
-      "configuredModelId": "85cb1ebe-00d4-4d08-a1ff-8a44ed74e1d6",
-      "configuredAt": 1790050274621
+      "configuredModelId": "6726d736-9cb3-49fa-a24e-7ad250fd94a8",
+      "configuredAt": 1790350350924
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5-mini",
-        "displayName": "GitHub Copilot/GPT-5 Mini"
+        "id": "openrouter/fireworks/ember-1",
+        "displayName": "OpenRouter/Ember-1"
       },
-      "configuredModelId": "639ab9be-2105-41df-ba7a-b9ec49188b2c",
-      "configuredAt": 1790050274622
+      "configuredModelId": "898c062c-0dd4-4606-8d4b-9c95023eab8c",
+      "configuredAt": 1790350350925
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5.3-codex",
-        "displayName": "GitHub Copilot/GPT-5.3 Codex"
+        "id": "openrouter/z-ai/glm-5.3-prime",
+        "displayName": "OpenRouter/GLM 5.3 Prime"
       },
-      "configuredModelId": "be2b5dab-0956-4ed3-9369-dc59ae9b5344",
-      "configuredAt": 1790050274622
+      "configuredModelId": "84c3d4e5-3a1e-49b2-bb0e-7800c612a904",
+      "configuredAt": 1790350350926
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5.4",
-        "displayName": "GitHub Copilot/GPT-5.4"
+        "id": "openrouter/mistralai/mistral-large-2512",
+        "displayName": "OpenRouter/Mistral Large 3"
       },
-      "configuredModelId": "693de99b-27ce-452c-86c6-d41ab7eec7e8",
-      "configuredAt": 1790050274622
+      "configuredModelId": "418547eb-164a-454e-a3c3-cce2e9633663",
+      "configuredAt": 1790350350926
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5.4-mini",
-        "displayName": "GitHub Copilot/GPT-5.4 mini"
+        "id": "openrouter/qwen/qwen3.8-max-prime",
+        "displayName": "OpenRouter/Qwen 3.8 Max Prime"
       },
-      "configuredModelId": "0aca19fa-d141-4f3b-a69d-01e961e4ee80",
-      "configuredAt": 1790050274622
+      "configuredModelId": "d448698d-613c-4623-9796-19aaa9ae5956",
+      "configuredAt": 1790350350927
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5.4-nano",
-        "displayName": "GitHub Copilot/GPT-5.4 nano"
+        "id": "openrouter/upstage/solar-mini4",
+        "displayName": "OpenRouter/Solar Mini 4"
       },
-      "configuredModelId": "8d96e1d2-f951-4fe7-8eef-bdf900fa40ab",
-      "configuredAt": 1790050274623
+      "configuredModelId": "ed9164d7-031d-4179-bcca-f6b8a2caba0c",
+      "configuredAt": 1790350350928
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5.5",
-        "displayName": "GitHub Copilot/GPT-5.5"
+        "id": "openrouter/stealth/space-bunny-alpha",
+        "displayName": "OpenRouter/Space Bunny Alpha"
       },
-      "configuredModelId": "1a762649-ab02-4c15-8cf6-9a9024c5754f",
-      "configuredAt": 1790050274623
+      "configuredModelId": "8c3458ae-0e95-43fa-83ab-a0a19a64f6ae",
+      "configuredAt": 1790350350928
     },
     {
       "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
       "info": {
-        "id": "github-copilot/gpt-5.6-luna",
-        "displayName": "GitHub Copilot/GPT-5.6 Luna"
+        "id": "opencode/space-bunny-free",
+        "displayName": "OpenCode Zen/Space Bunny Free"
       },
-      "configuredModelId": "968e407d-06ee-400a-a2d2-b87cee3519cb",
-      "configuredAt": 1790050274623
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/gpt-5.6-sol",
-        "displayName": "GitHub Copilot/GPT-5.6 Sol"
-      },
-      "configuredModelId": "475154bf-40d3-4215-9007-99aea085cab0",
-      "configuredAt": 1790050274624
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/gpt-5.6-terra",
-        "displayName": "GitHub Copilot/GPT-5.6 Terra"
-      },
-      "configuredModelId": "6cbf3fa0-80ef-438e-81e3-c3470f98cb1e",
-      "configuredAt": 1790050274624
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/gpt-6-astra",
-        "displayName": "GitHub Copilot/GPT-6 Astra"
-      },
-      "configuredModelId": "96b892bd-82a5-4cb3-992c-830c77dd456e",
-      "configuredAt": 1790050274624
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/grok-4.5",
-        "displayName": "GitHub Copilot/Grok 4.5"
-      },
-      "configuredModelId": "50249161-79bc-4b38-b341-28048f3aa92b",
-      "configuredAt": 1790050274625
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/grok-4.6",
-        "displayName": "GitHub Copilot/Grok 4.6"
-      },
-      "configuredModelId": "6bf2ba22-7cba-4c14-a4f9-8da440a0c27f",
-      "configuredAt": 1790050274625
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/kimi-k2.7-code",
-        "displayName": "GitHub Copilot/Kimi K2.7 Code"
-      },
-      "configuredModelId": "7e94adc0-0c39-45ce-b15c-0798b6dc88d2",
-      "configuredAt": 1790050274625
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/kimi-k3",
-        "displayName": "GitHub Copilot/Kimi K3"
-      },
-      "configuredModelId": "5e01f722-43b3-4eb3-b1d6-3916b104dbb0",
-      "configuredAt": 1790050274625
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/mai-code-1-flash-picker",
-        "displayName": "GitHub Copilot/MAI-Code-1-Flash"
-      },
-      "configuredModelId": "1b6a2499-9b10-45d5-bdf6-7c16f47b1898",
-      "configuredAt": 1790050274626
-    },
-    {
-      "providerId": "764ae12a-f10a-438c-be16-377e12cae055",
-      "info": {
-        "id": "github-copilot/mai-code-1.1-flash",
-        "displayName": "GitHub Copilot/MAI-Code-1.1-Flash"
-      },
-      "configuredModelId": "8ac70f35-901d-40c9-9d2a-ba55bf42d1a1",
-      "configuredAt": 1790050274626
+      "configuredModelId": "a0727df8-4a0b-423b-8c48-e4662e7db6fa",
+      "configuredAt": 1790350350929
     }
   ],
   "backends": {
     "opencode": {
       "enabledModels": [
         "c3faa6d9-df26-47a2-8bae-68bdd7dba005",
-        "d24b5f50-1731-480f-88dc-c0442be10b08"
+        "d24b5f50-1731-480f-88dc-c0442be10b08",
+        "0cbc0ca9-d264-4db6-ada6-bebc01985a70",
+        "aed29668-34a9-43e9-9e4c-8939ff808b13"
       ]
     }
   },
