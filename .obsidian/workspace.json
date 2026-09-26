@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e3fd86acf33c20d6",
+        "id": "7b3f9a530c69c438",
         "type": "tabs",
         "children": [
           {
-            "id": "24caa1bc01619532",
+            "id": "a0164c480baa874a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -127,21 +127,6 @@
             }
           },
           {
-            "id": "f6b0c0439d37e185",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "1ea29381a3ee0da7",
             "type": "leaf",
             "state": {
@@ -199,13 +184,29 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "88c53f56f9da050e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 375.4130859375
+    "width": 375.4130859375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,14 +228,14 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "terminal:Open terminal": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d107d2be032c2eba",
+  "active": "a0164c480baa874a",
   "lastOpenFiles": [
-    "Mind Map.canvas",
     "DAA/Bellman Ford.md",
+    "202609252138.md",
+    "Mind Map.canvas",
     "Untitled.base",
     "Untitled",
     "DAA/Travelling Salesman Problem.md",
